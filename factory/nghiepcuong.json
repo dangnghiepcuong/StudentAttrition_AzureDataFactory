@@ -1,0 +1,9 @@
+{
+	"name": "nghiepcuong",
+	"location": "southeastasia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "5a424714-d954-4408-9e92-c660fbeb4c25",
+		"tenantId": "2dff09ac-2b3b-4182-9953-2b548e0d0b39"
+	}
+}

@@ -1,0 +1,249 @@
+{
+	"name": "OutputCSV",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "UnivData2.csv",
+				"container": "datasets"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "STUDENT_IDENTIFIER",
+				"type": "String"
+			},
+			{
+				"name": "STDNT_AGE",
+				"type": "String"
+			},
+			{
+				"name": "STDNT_GENDER",
+				"type": "String"
+			},
+			{
+				"name": "STDNT_BACKGROUND",
+				"type": "String"
+			},
+			{
+				"name": "IN_STATE_FLAG",
+				"type": "String"
+			},
+			{
+				"name": "INTERNATIONAL_STS",
+				"type": "String"
+			},
+			{
+				"name": "STDNT_MAJOR",
+				"type": "String"
+			},
+			{
+				"name": "STDNT_MINOR",
+				"type": "String"
+			},
+			{
+				"name": "STDNT_TEST_ENTRANCE1",
+				"type": "String"
+			},
+			{
+				"name": "STDNT_TEST_ENTRANCE2",
+				"type": "String"
+			},
+			{
+				"name": "STDNT_TEST_ENTRANCE_COMB",
+				"type": "String"
+			},
+			{
+				"name": "FIRST_TERM",
+				"type": "String"
+			},
+			{
+				"name": "CORE_COURSE_NAME_1_F",
+				"type": "String"
+			},
+			{
+				"name": "CORE_COURSE_GRADE_1_F",
+				"type": "String"
+			},
+			{
+				"name": "CORE_COURSE_NAME_2_F",
+				"type": "String"
+			},
+			{
+				"name": "CORE_COURSE_GRADE_2_F",
+				"type": "String"
+			},
+			{
+				"name": "CORE_COURSE_NAME_3_F",
+				"type": "String"
+			},
+			{
+				"name": "CORE_COURSE_GRADE_3_F",
+				"type": "String"
+			},
+			{
+				"name": "CORE_COURSE_NAME_4_F",
+				"type": "String"
+			},
+			{
+				"name": "CORE_COURSE_GRADE_4_F",
+				"type": "String"
+			},
+			{
+				"name": "CORE_COURSE_NAME_5_F",
+				"type": "String"
+			},
+			{
+				"name": "CORE_COURSE_GRADE_5_F",
+				"type": "String"
+			},
+			{
+				"name": "CORE_COURSE_NAME_6_F",
+				"type": "String"
+			},
+			{
+				"name": "CORE_COURSE_GRADE_6_F",
+				"type": "String"
+			},
+			{
+				"name": "SECOND_TERM",
+				"type": "String"
+			},
+			{
+				"name": "CORE_COURSE_NAME_1_S",
+				"type": "String"
+			},
+			{
+				"name": "CORE_COURSE_GRADE_1_S",
+				"type": "String"
+			},
+			{
+				"name": "CORE_COURSE_NAME_2_S",
+				"type": "String"
+			},
+			{
+				"name": "CORE_COURSE_GRADE_2_S",
+				"type": "String"
+			},
+			{
+				"name": "CORE_COURSE_NAME_3_S",
+				"type": "String"
+			},
+			{
+				"name": "CORE_COURSE_GRADE_3_S",
+				"type": "String"
+			},
+			{
+				"name": "CORE_COURSE_NAME_4_S",
+				"type": "String"
+			},
+			{
+				"name": "CORE_COURSE_GRADE_4_S",
+				"type": "String"
+			},
+			{
+				"name": "CORE_COURSE_NAME_5_S",
+				"type": "String"
+			},
+			{
+				"name": "CORE_COURSE_GRADE_5_S",
+				"type": "String"
+			},
+			{
+				"name": "CORE_COURSE_NAME_6_S",
+				"type": "String"
+			},
+			{
+				"name": "CORE_COURSE_GRADE_6_S",
+				"type": "String"
+			},
+			{
+				"name": "HOUSING_STS",
+				"type": "String"
+			},
+			{
+				"name": "RETURNED_2ND_YR",
+				"type": "String"
+			},
+			{
+				"name": "DISTANCE_FROM_HOME",
+				"type": "String"
+			},
+			{
+				"name": "HIGH_SCHL_GPA",
+				"type": "String"
+			},
+			{
+				"name": "HIGH_SCHL_NAME",
+				"type": "String"
+			},
+			{
+				"name": "FATHER_HI_EDU_CD",
+				"type": "String"
+			},
+			{
+				"name": "FATHER_HI_EDU_DESC",
+				"type": "String"
+			},
+			{
+				"name": "MOTHER_HI_EDU_CD",
+				"type": "String"
+			},
+			{
+				"name": "MOTHER_HI_EDU_DESC",
+				"type": "String"
+			},
+			{
+				"name": "DEGREE_GROUP_CD",
+				"type": "String"
+			},
+			{
+				"name": "DEGREE_GROUP_DESC",
+				"type": "String"
+			},
+			{
+				"name": "FIRST_TERM_ATTEMPT_HRS",
+				"type": "String"
+			},
+			{
+				"name": "FIRST_TERM_EARNED_HRS",
+				"type": "String"
+			},
+			{
+				"name": "SECOND_TERM_ATTEMPT_HRS",
+				"type": "String"
+			},
+			{
+				"name": "SECOND_TERM_EARNED_HRS",
+				"type": "String"
+			},
+			{
+				"name": "GROSS_FIN_NEED",
+				"type": "String"
+			},
+			{
+				"name": "COST_OF_ATTEND",
+				"type": "String"
+			},
+			{
+				"name": "EST_FAM_CONTRIBUTION",
+				"type": "String"
+			},
+			{
+				"name": "UNMET_NEED",
+				"type": "String"
+			}
+		]
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
